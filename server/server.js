@@ -2,11 +2,11 @@
 
 // Initialization
 //
-var express = require("express"),
-    app = express(),
-    bodyParser = require("body-parser"),
+var express = require("express");
+var app = express();
+var bodyParser = require("body-parser");
 
-    todoItemModel = require("./models/todo-item.js");
+var todoItemModel = require("./models/todo-item.js");
 
 
 app.use(bodyParser.urlencoded({extended: true}));
