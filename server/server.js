@@ -20,7 +20,7 @@ var port = process.env.PORT || 8200;
 var router = express.Router();
 
 router.use(function(request, response, next) {
-  console.log("Catch-all filter enetered.");
+  console.log("Catch-all filter entered.");
   next();
 });
 

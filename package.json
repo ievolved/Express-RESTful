@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A simple RESTful API using ExpresJS.  This is for demonstration purposes only.",
   "main": "server/server.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=6.0"
+  },
   "scripts": {
     "test": "mocha --timeout 10000",
     "start": "nodemon ./server/server.js"
